@@ -2,6 +2,9 @@ import React from "react";
 
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
+import Button from "./shared/Button";
+import ButtonLink from "./shared/ButtonLink";
+
 const navLinks = ["Home", "About", "Support", "Platforms", "Pricing"];
 
 const Navbar = () => {
@@ -17,16 +20,19 @@ const Navbar = () => {
           <h1 className="text-3xl font-bold mr-4 sm:text-4xl">BRAND.</h1>
           <ul className="hidden md:flex">
             {navLinks.map((navLink, navLinkIndex) => (
-              <li key={navLinkIndex}>{navLink}</li>
+              <li
+                key={navLinkIndex}
+                className="font-normal cursor-pointer hover:text-indigo-700"
+              >
+                {navLink}
+              </li>
             ))}
           </ul>
         </div>
 
         <div className="hidden md:flex pr-4">
-          <button className="border-none bg-transparent text-black mr-4">
-            Sign in
-          </button>
-          <button className="px-8 py-3 hover:bg-indigo-700">Sign up</button>
+          <ButtonLink>Sign In</ButtonLink>
+          <Button type="solid">Sign Up</Button>
         </div>
 
         <div className="md:hidden">
@@ -52,10 +58,8 @@ const Navbar = () => {
           </li>
         ))}
         <div className="flex flex-col my-4">
-          <button className="bg-transparent text-indigo-600 px-8 py-3 mb-4 hover:bg-indigo-700 hover:text-white">
-            Sign in
-          </button>
-          <button className="px-8 py-3 hover:bg-indigo-700">Sign up</button>
+          <Button type="outline">Sign In</Button>
+          <Button type="solid">Sign Up</Button>
         </div>
       </ul>
     </div>
