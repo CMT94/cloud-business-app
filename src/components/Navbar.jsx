@@ -22,7 +22,7 @@ const Navbar = () => {
             {navLinks.map((navLink, navLinkIndex) => (
               <li
                 key={navLinkIndex}
-                className="font-normal cursor-pointer hover:text-indigo-700"
+                className="font-normal cursor-pointer hover:text-indigo-700 hover:transition duration-300 ease-in-out"
               >
                 {navLink}
               </li>
@@ -35,7 +35,7 @@ const Navbar = () => {
           <Button type="solid">Sign Up</Button>
         </div>
 
-        <div className="md:hidden">
+        <div className="md:hidden mr-4">
           {!isMobileMenuDisplayed ? (
             <MenuIcon
               className="w-[24px] cursor-pointer"

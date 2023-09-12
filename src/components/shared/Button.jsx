@@ -7,10 +7,10 @@ const Button = (props) => {
     <button
       className={
         type === "solid"
-          ? `text-white bg-indigo-600 border border-indigo-600 rounded-md hover:bg-indigo-700 px-8 py-3 ${
+          ? `text-white bg-indigo-600 border border-indigo-600 rounded-md hover:bg-indigo-700 px-8 py-3 hover:transition duration-300 ease-in-out ${
               customClass ? customClass : ""
             }`
-          : `bg-transparent text-indigo-600 px-8 py-3 mb-4 hover:bg-indigo-700 hover:text-white ${
+          : `bg-transparent text-indigo-600 px-8 py-3 mb-4 hover:bg-indigo-700 hover:text-white hover:transition duration-300 ease-in-out ${
               customClass ? customClass : ""
             }`
       }

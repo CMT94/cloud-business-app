@@ -24,7 +24,7 @@ const Hero = () => {
           <p className="text-2xl">This is our tech solution.</p>
           <Button
             type="solid"
-            customClass="my-4 flex justify-center items-center"
+            customClass="my-4 flex justify-center items-center hover:transition duration-300 ease-in-out"
           >
             <span className="mr-2">Get Started</span>
             <LightningBoltIcon className="w-[18px]" />
@@ -38,19 +38,19 @@ const Hero = () => {
           <p>Data Services</p>
           <div className="flex justify-between flex-wrap px-4">
             <div className="flex px-4 py-2 text-slate-500">
-              <CloudUploadIcon className="w-[20px] text-indigo-600" />
+              <CloudUploadIcon className="w-[20px] text-indigo-600 mr-1" />
               <p>App Security</p>
             </div>
             <div className="flex px-4 py-2 text-slate-500">
-              <DatabaseIcon className="w-[20px] text-indigo-600" />
+              <DatabaseIcon className="w-[20px] text-indigo-600 mr-1" />
               <p>Dashboard Design</p>
             </div>
             <div className="flex px-4 py-2 text-slate-500">
-              <ServerIcon className="w-[20px] text-indigo-600" />
+              <ServerIcon className="w-[20px] text-indigo-600 mr-1" />
               <p>Cloud Data</p>
             </div>
             <div className="flex px-4 py-2 text-slate-500">
-              <PaperAirplaneIcon className="w-[20px] text-indigo-600" />
+              <PaperAirplaneIcon className="w-[20px] text-indigo-600 mr-1" />
               <p>API</p>
             </div>
           </div>
