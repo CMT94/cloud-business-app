@@ -14,7 +14,10 @@ import Button from "./shared/Button";
 
 const Hero = () => {
   return (
-    <div className="w-full h-screen bg-zinc-200 flex flex-col justify-between">
+    <div
+      className="w-full h-screen bg-zinc-200 flex flex-col justify-between"
+      id="home"
+    >
       <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
         <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
           <p className="text-2xl">Unique Sequencing & Production</p>
@@ -24,7 +27,7 @@ const Hero = () => {
           <p className="text-2xl">This is our tech solution.</p>
           <Button
             type="solid"
-            customClass="my-4 flex justify-center items-center hover:transition duration-300 ease-in-out"
+            customClass="w-1/2 md:w-auto my-4 flex justify-center items-center hover:transition duration-300 ease-in-out"
           >
             <span className="mr-2">Get Started</span>
             <LightningBoltIcon className="w-[18px]" />

@@ -4,14 +4,21 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 import Button from "./shared/Button";
 import ButtonLink from "./shared/ButtonLink";
+import { Link } from "react-scroll";
 
-const navLinks = ["Home", "About", "Support", "Platforms", "Pricing"];
+const navLinks = [
+  { title: "Home", href: "home", offset: 0 },
+  { title: "About", href: "about", offset: -350 },
+  { title: "Support", href: "support", offset: -60 },
+  { title: "Pricing", href: "pricing", offset: -50 },
+];
 
 const Navbar = () => {
   const [isMobileMenuDisplayed, setIsMobileMenuDisplayed] =
     React.useState(false);
 
   const toggleClick = () => setIsMobileMenuDisplayed((prevState) => !prevState);
+  const closeMobileMenu = () => setIsMobileMenuDisplayed(false);
 
   return (
     <div className="w-screen h-[80px] z-10 bg-zinc-200 fixed drop-shadow-lg">
@@ -24,7 +31,14 @@ const Navbar = () => {
                 key={navLinkIndex}
                 className="font-normal cursor-pointer hover:text-indigo-700 hover:transition duration-300 ease-in-out"
               >
-                {navLink}
+                <Link
+                  to={navLink.href}
+                  offset={navLink.offset}
+                  smooth={true}
+                  duration={500}
+                >
+                  {navLink.title}
+                </Link>
               </li>
             ))}
           </ul>
@@ -57,7 +71,15 @@ const Navbar = () => {
             key={navLinkIndex}
             className="border-b-2 border-zinc-300 w-full cursor-pointer hover:text-indigo-700 hover:transition duration-300 ease-in-out"
           >
-            {navLink}
+            <Link
+              to={navLink.href}
+              offset={navLink.offset}
+              smooth={true}
+              duration={500}
+              onClick={closeMobileMenu}
+            >
+              {navLink.title}
+            </Link>
           </li>
         ))}
         <div className="flex flex-col my-4">

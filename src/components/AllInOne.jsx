@@ -20,7 +20,7 @@ const AllInOne = () => {
 
             <div>
               <h3 className="font-bold text-lg">Notifications</h3>
-              <p classNmae="text-lg pt-2 pb-4">
+              <p className="text-lg pt-2 pb-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
                 repellat vel illo quo velit dolorum doloribus atque qui quod ut.
               </p>
@@ -33,7 +33,7 @@ const AllInOne = () => {
 
             <div>
               <h3 className="font-bold text-lg">Notifications</h3>
-              <p classNmae="text-lg pt-2 pb-4">
+              <p className="text-lg pt-2 pb-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
                 repellat vel illo quo velit dolorum doloribus atque qui quod ut.
               </p>
@@ -46,7 +46,7 @@ const AllInOne = () => {
 
             <div>
               <h3 className="font-bold text-lg">Notifications</h3>
-              <p classNmae="text-lg pt-2 pb-4">
+              <p className="text-lg pt-2 pb-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
                 repellat vel illo quo velit dolorum doloribus atque qui quod ut.
               </p>
@@ -59,7 +59,7 @@ const AllInOne = () => {
 
             <div>
               <h3 className="font-bold text-lg">Notifications</h3>
-              <p classNmae="text-lg pt-2 pb-4">
+              <p className="text-lg pt-2 pb-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
                 repellat vel illo quo velit dolorum doloribus atque qui quod ut.
               </p>
@@ -72,7 +72,7 @@ const AllInOne = () => {
 
             <div>
               <h3 className="font-bold text-lg">Notifications</h3>
-              <p classNmae="text-lg pt-2 pb-4">
+              <p className="text-lg pt-2 pb-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
                 repellat vel illo quo velit dolorum doloribus atque qui quod ut.
               </p>
@@ -85,7 +85,7 @@ const AllInOne = () => {
 
             <div>
               <h3 className="font-bold text-lg">Notifications</h3>
-              <p classNmae="text-lg pt-2 pb-4">
+              <p className="text-lg pt-2 pb-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
                 repellat vel illo quo velit dolorum doloribus atque qui quod ut.
               </p>
@@ -98,7 +98,7 @@ const AllInOne = () => {
 
             <div>
               <h3 className="font-bold text-lg">Notifications</h3>
-              <p classNmae="text-lg pt-2 pb-4">
+              <p className="text-lg pt-2 pb-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
                 repellat vel illo quo velit dolorum doloribus atque qui quod ut.
               </p>
@@ -111,7 +111,7 @@ const AllInOne = () => {
 
             <div>
               <h3 className="font-bold text-lg">Notifications</h3>
-              <p classNmae="text-lg pt-2 pb-4">
+              <p className="text-lg pt-2 pb-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
                 repellat vel illo quo velit dolorum doloribus atque qui quod ut.
               </p>

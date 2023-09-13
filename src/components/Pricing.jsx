@@ -35,7 +35,8 @@ const solutions = [
 
 const Pricing = () => {
   return (
-    <div className="w-full text-white my-24">
+    // 'isolate' css prop on container when using mix-blend-overlay is needed for Safari to fix non-rendering color behaviour
+    <div className="w-full text-white my-24 isolate" id="pricing">
       <div className="w-full h-[800px] bg-slate-900 absolute mix-blend-overlay"></div>
 
       <div className="max-w-[1240px] mx-auto py-12">
