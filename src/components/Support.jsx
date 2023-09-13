@@ -42,7 +42,7 @@ const Support = () => {
               </p>
             </div>
             <div className="bg-slate-100 pl-8 py-4">
-              <p className="flex items-center text-indigo-600 cursor-pointer hover:translate-x-2 duration-300 ease-in-out">
+              <p className="flex items-center text-indigo-600 cursor-pointer w-1/3 hover:translate-x-2 duration-300 ease-in-out ">
                 Contact us <ArrowSmRightIcon className="w-5 ml-2" />
               </p>
             </div>
@@ -58,7 +58,7 @@ const Support = () => {
               </p>
             </div>
             <div className="bg-slate-100 pl-8 py-4">
-              <p className="flex items-center text-indigo-600 cursor-pointer hover:translate-x-2 duration-300 ease-in-out">
+              <p className="flex items-center text-indigo-600 cursor-pointer w-1/3 hover:translate-x-2 duration-300 ease-in-out">
                 Contact us <ArrowSmRightIcon className="w-5 ml-2" />
               </p>
             </div>
@@ -74,7 +74,7 @@ const Support = () => {
               </p>
             </div>
             <div className="bg-slate-100 pl-8 py-4">
-              <p className="flex items-center text-indigo-600 cursor-pointer hover:translate-x-2 duration-300 ease-in-out">
+              <p className="flex items-center text-indigo-600 cursor-pointer w-1/3 hover:translate-x-2 duration-300 ease-in-out">
                 Contact us <ArrowSmRightIcon className="w-5 ml-2" />
               </p>
             </div>
